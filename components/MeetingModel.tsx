@@ -4,10 +4,7 @@ import { cn } from '@/lib/utils'
 import {
     Dialog,
     DialogContent,
-    DialogDescription,
-    DialogHeader,
-    DialogTitle,
-    DialogTrigger,
+   
   } from "@/components/ui/dialog"
 import { Button } from './ui/button'
   
@@ -24,7 +21,7 @@ interface MeetingModelProps{
     buttonIcon?: string 
 }
 
-const MeetingModel = ({isOpen, onClose, title, className, handleClick, buttonText, children, buttonIcon, image}: MeetingModelProps) => {
+const MeetingModel = ({isOpen, onClose, title, className, handleClick, buttonText, children, image}: MeetingModelProps) => {
   return (
     <Dialog open={isOpen} onOpenChange={onClose}>
   {/* <DialogTrigger>Open</DialogTrigger> */}

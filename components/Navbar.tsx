@@ -1,12 +1,12 @@
 import React from 'react'
 import Link from 'next/link'
 import {
-  SignInButton,
+
   SignedIn,
-  SignedOut,
+
   UserButton
 } from '@clerk/nextjs'
-import Image from 'next/image'
+
 import MobileNav from './MobileNav'
 
 const Navbar = () => {

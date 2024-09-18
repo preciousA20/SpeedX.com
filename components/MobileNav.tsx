@@ -1,6 +1,4 @@
-'use client';
-
-import Image from 'next/image'
+'use client'
 import Link from 'next/link'
 import { usePathname } from 'next/navigation'
 
@@ -52,12 +50,7 @@ const MobileNav = () => {
                           }
                         )}
                       >
-                        {/* <Image
-                          src={item.imgURL}
-                          alt={item.label}
-                          width={20}
-                          height={20}
-                        /> */}
+                    
                         <p className="font-semibold hover:underline">{item.label}</p>
                       </Link>
                     </SheetClose>

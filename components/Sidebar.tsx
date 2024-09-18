@@ -1,5 +1,4 @@
 'use client'
-import Image from 'next/image'
 import Link from 'next/link'
 import { usePathname } from 'next/navigation'
 import { sidebarLinks } from '@/constant'
@@ -26,12 +25,7 @@ const Sidebar = () => {
                 }
               )}
             >
-              {/* <Image
-                src={item.imgURL}
-                alt={item.label}
-                width={24}
-                height={24}
-              /> */}
+            
               <p className="text-lg font-semibold max-lg:hidden hover:underline">
                 {item.label}
               </p>
